@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 const styles = {
   container: {
     padding:'10px',
-    textAlign:'center'
+    textAlign:'center',
+    marginBottom:'70px'
   },
   image: {
     margin:'10px',
