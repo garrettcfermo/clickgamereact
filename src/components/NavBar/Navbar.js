@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 
 
 const styles = {
+  background: {
+    backgroundColor: '#40403a',
+    color:'white',
+    fontWeight :"bold",
+    boxShadow:"0px 2px 10px #40403a",
+    padding:'20px'
+  }
   
 }
 
@@ -9,28 +16,13 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Clicky Brewery Game</a>
-
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
+      <nav style={styles.background} class="navbar nav-pills nav-justified sticky-top">
+        <a class="nav-item nav-link disabled">Clicky Brewery Game</a>
+        <a class="nav-item nav-link disabled" >Click an image to begin!</a>
+        <a class="nav-item nav-link disabled" >Score:0 | Top Score:0</a>
       </nav>
     )
   }
 }
-
-
 
 export default Navbar
