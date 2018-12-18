@@ -14,6 +14,8 @@ class App extends Component {
     return (
       <>
       <Navbar/>
+
+      <Footer />
       </>
     )
   }
