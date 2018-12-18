@@ -1,49 +1,36 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+
 
 const styles = {
-  root: {
-    flexGrow: 1,
-    background:'white'
-  },
-  grow: {
-    flexGrow: 1,
-  },
-  background: {
-    background:'black'
-  }
-};
+  
+}
 
 class Navbar extends Component {
 
   render() {
-    const { classes } = this.props
     return (
-      <div className={classes.root}>
-        <AppBar position="static" className={classes.background}>
-          <Toolbar>
-            <Typography variant="h6" color="inherit" className={classes.grow}>
-              Brewery Clicky Game
-          </Typography>
-            <Typography variant="h6" color="inherit" className={classes.grow}>
-              Click an image to begin!
-          </Typography>
-            <Typography variant="h6" color="inherit" >
-              Score: 0 | Top Score: 0
-          </Typography>
-          </Toolbar>
-        </AppBar>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Clicky Brewery Game</a>
+
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+      </nav>
     )
   }
 }
 
-Navbar.propTypes = {
-  classes: PropTypes.object.isRequired,
-}
 
-export default withStyles(styles)(Navbar);
+
+export default Navbar

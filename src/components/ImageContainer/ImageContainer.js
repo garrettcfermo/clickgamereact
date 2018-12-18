@@ -5,17 +5,16 @@ const styles = {
 
 }
 
-class Footer extends Component {
+class ImageContainer extends Component {
 
   render() {
     return (
-     <footer>
-       
-     </footer>
+     <>
+     </>
     )
   }
 }
 
 
 
-export default Footer
+export default ImageContainer
