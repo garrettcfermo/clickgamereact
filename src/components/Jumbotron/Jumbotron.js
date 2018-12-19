@@ -15,10 +15,10 @@ class Jumbotron extends Component {
 
   render() {
     return (
-      <div style={styles.background} class="jumbotron jumbotron-fluid text-center">
-        <div class="container">
-          <h1 class="display-3">Clicky Game!</h1>
-          <h5 class="display-5">Click on an image to earn points, but don't click on any more than once!</h5>
+      <div style={styles.background} className="jumbotron jumbotron-fluid text-center">
+        <div className="container">
+          <h1 className="display-3">Clicky Game!</h1>
+          <h5 className="display-5">Click on an image to earn points, but don't click on any more than once!</h5>
         </div>
       </div>
     )

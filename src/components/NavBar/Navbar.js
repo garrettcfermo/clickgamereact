@@ -17,13 +17,15 @@ const styles = {
 
 class Navbar extends Component {
 
+
   render() {
     return (
-      <nav style={styles.background} class="navbar nav-pills nav-justified sticky-top">
-        <a style={styles.links} class="nav-item nav-link disabled" href="/">Clicky Brewery Game</a>
-        <a style={styles.links} class="nav-item nav-link disabled" href="/">Click an image to begin!</a>
-        <a style={styles.links} class="nav-item nav-link disabled" href="/">Score:0 | Top Score:0</a>
+      <nav style={styles.background} className="navbar nav-pills nav-justified sticky-top">
+        <a onClick={this.Hello} style={styles.links} className="nav-item nav-link disabled" href="/">Clicky Brewery Game</a>
+        <a style={styles.links} className="nav-item nav-link disabled" href="/">Click an image to begin!</a>
+        <a style={styles.links} className="nav-item nav-link disabled" href="/">Score: {this.props.score} | Top Score: {this.props.top_score}</a>
       </nav>
+      
     )
   }
 }
