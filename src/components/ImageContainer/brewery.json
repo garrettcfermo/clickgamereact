@@ -1,0 +1,47 @@
+[
+  {
+    "id":1,
+    "name":"BootLeggers",
+    "image_location":"./assets/bootleggers.jpg"
+  },
+  {
+    "id":2,
+    "name":"BottleLogic",
+    "image_location": "./assets/bottlelogic.jpg"
+  },
+  {
+    "id":3,
+    "name":"GoldenRoad",
+    "image_location": "./assets/goldenroad.jpg"
+  },
+  {
+    "id":4,
+    "name":"GreenCheek",
+    "image_location": "./assets/greenchick.jpg"
+  },
+  {
+    "id":5,
+    "name":"KneeDeep",
+    "image_location": "./assets/kneedeep.jpg"
+  },
+  {
+    "id":6,
+    "name":"Lagunitas",
+    "image_location": "./assets/lagunitas.jpg"
+  },
+  {
+    "id":7,
+    "name":"NobleAle",
+    "image_location": "./assets/nobleale.jpg"
+  },
+  {
+    "id":8,
+    "name":"PizzaPort",
+    "image_location": "./assets/pizzaport.jpg"
+  },
+  {
+    "id":9,
+    "name":"RussianRiver",
+    "image_location": "./assets/russianriver.jpg"
+  }
+]
